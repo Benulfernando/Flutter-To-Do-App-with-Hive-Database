@@ -1,16 +1,37 @@
-# todo_app
 
-A new Flutter project.
+# Flutter To-Do App with Hive Database
 
-## Getting Started
+A simple and interactive To-Do app built with Flutter and Hive for local storage. This app allows users to create, delete, and mark tasks as completed while persisting data using Hive.
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Add new tasks
+- Mark tasks as completed
+- Delete tasks using slidable action
+- Persistent storage using Hive
+- Clean UI with Material Design 
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+## Tech Stack
+
+- Flutter
+- Dart
+- Hive (for local storage)
+- flutter_slidable(for swipe actions)
+
+
+## Installation
+
+Clone the repository
+
+```bash
+   git clone https://github.com/your-username/flutter-todo-app.git
+   cd flutter-todo-app
+```
+    
+## Author
+
+- [@Benulfernando](https://github.com/Benulfernando)
+
+
