@@ -6,7 +6,6 @@ class TodoDataBase{
 
   final _myBox = Hive.box('mybox');
 
-  //running this method first time ever opening this app
   void createInitialData(){
     todoList = [
       ["makeTutorial", false],

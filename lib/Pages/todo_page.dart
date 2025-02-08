@@ -18,7 +18,6 @@ class _TodoAppState extends State<TodoApp> {
 
   @override
   void initState() {
-    //first time creating the app
     if(_myBox.get("TODOLIST") == null){
       db.createInitialData();
     }else{
